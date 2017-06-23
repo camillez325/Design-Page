@@ -1,0 +1,27 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: block;
+}
+
+body, html {
+	background: #000;
+	font-family: Lato;
+	line-height: 1.5;
+	width: 100%;
+
+}
+
+section {
+	display: block;
+	height: 540px;
+}
+.banner {
+	background: url(images/concert.jpg) 0 0;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+}
