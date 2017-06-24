@@ -12,16 +12,109 @@ body, html {
 	font-family: Lato;
 	line-height: 1.5;
 	width: 100%;
+	color: white;
+}
 
+div {
+	display: block;
 }
 
 section {
 	display: block;
-	height: 540px;
 }
+
+h1 { 
+    font-size: 5.5em;
+    margin: 10px;
+    padding: 0;
+    font-weight: 200;
+}
+
+h2 {
+    font-size: 2em;
+   	margin: 0;
+   	padding: 0;
+   	font-weight: 100;
+}
+
+.clear {
+	clear:both;
+}
+
 .banner {
 	background: url(images/concert.jpg) 0 0;
 	background-position: center center;
 	background-attachment: fixed;
 	background-size: cover;
+	padding: 125px;
 }
+
+.container {
+	width: 100%;
+}
+
+.container-element {
+	width: 80%;
+	margin: auto;
+	padding:40px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.col {
+	width: 30%;
+	float: left;
+}
+
+.col img {
+	width: 90%;
+}
+
+.col_des {
+	width: 40%;
+	float: left;
+}
+
+.col_des p {
+	text-align: justify;
+	width: 80%;
+	font-weight: 100;
+}
+
+.container h2 {
+	margin-left: 10%;
+	padding-top: 100px;
+}
+
+.banner h2 {
+	padding-top: 0px;
+}
+
+.container p {
+	margin-left: 10%;
+}
+
+.whiteBack {
+	background: #efebe9;
+	color: #333;
+}
+
+.whiteBack h2 {
+	margin-left: 0%;
+}
+
+.whiteBack p {
+	margin-left: 0%;
+}
+
+.grayBack {
+	background: #1b1b1b;
+}
+
+i.fa-heart {
+	color: #ff57b9;
+}
+
+
