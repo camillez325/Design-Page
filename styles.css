@@ -113,8 +113,11 @@ h2 {
 	background: #1b1b1b;
 }
 
-i.fa-heart {
-	color: #ff57b9;
+.footNote {
+	-webkit-font-smoothing: antialiaed;
 }
 
+i.fa-heart{
+  color:#F8230C;
+}
 
